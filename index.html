@@ -593,29 +593,31 @@
             </div>
           </div>
           <div class="form-coment">
-            <label class="modal-label-coment" for="user-coment">Comment</label>
+            <label class="modal-label-coment" for="user-comment">Comment</label>
             <textarea
-              id="user-coment"
+              id="user-comment"
               placeholder="Text input"
               class="text-area"
+              name="user-comment"
             ></textarea>
-            <div class="form-wraper">
-              <input
-                type="checkbox"
-                class="checkbox visually-hidden"
-                id="check"
-              />
-              <label for="check">
-                <span class="custom-checkbox"
-                  ><svg class="check-icon" width="16px" height="16px">
-                    <use href="./images/icons.svg#icon-frame"></use>
-                  </svg>
-                </span>
-                I accept the terms and conditions of the
-                <a>Privacy Policy</a>
-              </label>
-            </div>
           </div>
+          <div class="form-check">
+            <input
+              type="checkbox"
+              class="checkbox visually-hidden"
+              id="check"
+            />
+            <label for="check">
+              <span class="custom-checkbox"
+                ><svg class="check-icon" width="16px" height="16px">
+                  <use href="./images/icons.svg#icon-frame"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a>Privacy Policy</a>
+            </label>
+          </div>
+
           <button type="submit" class="send-button">Send</button>
         </form>
       </div>
