@@ -584,6 +584,7 @@ img {
   margin-bottom: 16px;
 }
 .form-wraper {
+  margin-bottom: 8px;
 }
 .modal-label {
   font-weight: 400;
@@ -636,4 +637,14 @@ img {
   line-height: 1.16667;
   letter-spacing: 0.04em;
   color: #8e8f99;
+}
+.custom-checkbox {
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.checkbox:checked + .custom-checkbox {
+  border-color: transparent;
 }
